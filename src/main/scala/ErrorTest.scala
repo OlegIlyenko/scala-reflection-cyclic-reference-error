@@ -13,6 +13,7 @@ object ErrorTest extends App {
 
   // all lines blow throw an exception: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving type T
 
+  typeOf[java.util.Date] <:< typeOf[net.sf.ehcache.CacheManager]
   typeOf[Ehcache] <:< typeOf[CacheManager]
   typeOf[ApplicationLifecycle] <:< typeOf[CacheManager]
   typeOf[CacheManager] <:< typeOf[ApplicationLifecycle]
