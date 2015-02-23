@@ -5,6 +5,7 @@ Following exception is thrown:
 
 
 
+
 ```
 Exception in thread "main" scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving type T
         at scala.reflect.internal.Symbols$Symbol$$anonfun$info$3.apply(Symbols.scala:1471)
