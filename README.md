@@ -1,4 +1,4 @@
-Attempt to reproduce a bug in scala reflection API.
+Attempt to reproduce a bug in scala reflection API ([SI-9177](https://issues.scala-lang.org/browse/SI-9177)).
 
 [![Build Status](https://travis-ci.org/OlegIlyenko/scala-reflection-cyclic-reference-error.svg?branch=master)](https://travis-ci.org/OlegIlyenko/scala-reflection-cyclic-reference-error)
 
