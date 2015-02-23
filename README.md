@@ -1,10 +1,8 @@
 Attempt to reproduce a bug in scala reflection API.
 
+[![Build Status](https://travis-ci.org/OlegIlyenko/scala-reflection-cyclic-reference-error.svg?branch=master)](https://travis-ci.org/OlegIlyenko/scala-reflection-cyclic-reference-error)
+
 Following exception is thrown:
-
-
-
-
 
 ```
 Exception in thread "main" scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving type T
