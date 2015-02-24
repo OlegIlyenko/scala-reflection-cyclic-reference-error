@@ -11,7 +11,7 @@ object ErrorTest extends App {
   typeOf[ApplicationLifecycle] <:< typeOf[ApplicationLifecycle]
   typeOf[Ehcache] <:< typeOf[Cache]
 
-  // all lines blow throw an exception: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving type T
+  // all lines below throw an exception: scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving type T
 
   typeOf[java.util.Date] <:< typeOf[net.sf.ehcache.CacheManager]
   typeOf[Ehcache] <:< typeOf[CacheManager]
